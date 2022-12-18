@@ -15,8 +15,7 @@ int main()
         cout << *it+*(it+1) << endl;
     }
     cout <<"*********"<<endl;
-    auto it0=n.begin(),it1=n.end()-1;
-    
+    auto it0=n.begin(),it1=n.end()-1; 
     for(int i=0;i!=n.size();i++){        
         cout<<*(it1-i)+*(it0+i)<<endl;
     }
