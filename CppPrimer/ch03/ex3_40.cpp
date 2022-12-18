@@ -11,6 +11,7 @@ using std::end;
 
 int main()
 {
+    
     char s1[10]="just ";
     char s2[10]="do it";
     char s3[50];
